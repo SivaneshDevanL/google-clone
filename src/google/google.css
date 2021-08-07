@@ -1,0 +1,136 @@
+#main{
+    text-align: center;
+}
+#img{
+    width: 19%;
+}
+#img1{
+    width: 7%;
+}
+#a{
+    fill: currentColor;
+    color: #9aa0a6;
+    width: 3.5%;
+    position: relative;
+    left: 1%;
+}
+
+#b{
+    width: 3.5%; 
+    position: relative;
+    left: -1%;
+}
+#c,#d{
+    fill: currentColor;
+    color: #4285f4;
+    margin-left: 2%;
+    width: 4%;
+}
+#iconFlex{
+    display: contents;
+}
+#flex1{
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+#flex2{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 37vw;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 0.6%;
+}
+#flex2:hover{
+    box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
+    border-color: rgba(223,225,229,0);
+}
+#in{
+    font-size: 1Vw;
+    border: none;
+    outline: none;
+    width: 87%;
+}
+#flex{
+    font-size: 1Vw;
+    margin-left: 86%;
+    width: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+.c{
+    width: 13%;
+}
+#c:hover,a:hover,.link:hover{
+    cursor: pointer;
+}
+#links{
+    margin-left: 11%;
+    width: 38%;
+}
+.link{
+    margin-top:6%;
+}
+
+.c1{
+    margin-left: 2%;
+    width: 4%;}
+#s1{
+    margin-left: 2%;
+    width:4%;
+    border-radius: 50%;
+}
+#s{
+    width:17%;
+    border-radius: 50%;
+}
+#sticky{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.input{
+    display: flex;
+    margin: 2% auto 0 auto;
+    width: 33vw;
+    border: 1px solid rgb(235, 227, 227);
+    border-radius: 24px;
+    padding: 0.8%;
+}
+.input:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+#input{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1vw;
+    width: 86%;
+    border: none;
+    outline: none;
+    
+}
+#btn{margin-top: 2%}
+.btn{
+    background-color: rgb(248, 246, 246);
+    margin-left: 1%;
+    border: none;
+    width:7%;
+    padding: 0.5%;
+    font-size: 0.75vw;
+}
+#icons{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #ebebeb;}

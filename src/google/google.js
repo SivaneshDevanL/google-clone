@@ -14,11 +14,11 @@ export default function App(){
         .then(x=>x.json())
         .then(setApi)
         setV(0)
-        if(c){
-            c=!c
-            setTimeout(()=>{document.getElementById('in').value=w.value;
-                },100)
-        }
+        // if(c){
+        //     c=!c
+        //     setTimeout(()=>{document.getElementById('in').value=w.value;
+        //         },100)
+        // }
     }
     function enter1(){
         if(w.value==='') return

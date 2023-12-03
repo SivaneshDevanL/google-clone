@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './google.css';
 
-var w,c=true;
+var w="",c=true;
 export default function App(){
     const [v,setV]=useState(1)
     const [api,setApi]=useState()
@@ -72,13 +72,29 @@ export default function App(){
           </div>
          </div><hr/> </div>
                   <div id='links'>
-                  {api&&api.items.map((item,i)=>(
-                      <>
+                  {api&&api.items?
+
+                  api.items.map((item,i)=>(
+                      <div key={i}>
                       <p className='link' onClick={()=>nav(item.link)}>{item.displayLink}</p>
                       <a  href={item.link}>{item.title}</a>
                       <p>{item.snippet}</p>
-                      </>
-                  ))}</div>
+                      </div>
+                  )):
+                //   setTimeout(()=>{
+                //     return
+                  <div>
+                    <p>Your search -{w.value}- did not match any documents</p>
+                    <p>suggestions</p>
+                    <ul>
+                        <li>Make sure that all words are spelled correctly.</li>
+                        <li>Try different keywords.</li>
+                        <li>Try more general keywords.</li>
+                    </ul>
+                    </div>
+                    }
+                  {/* ,100)} */}
+                  </div>
                   </>
         }
         </>
